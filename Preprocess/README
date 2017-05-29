@@ -1,8 +1,10 @@
--->Core Ϊ������
------> CountWord  	 �����Ƶ���ҽ�������
------> RemoveDuplication ȥ��ȥ��
------> SelectHotWord     ѡ���ѡ�ȴ�
------> SelectSentence    ���ı�ѡ��ĳ���е��ڼ��о���
------> wordGuoLv	 ͣ�ôʹ���
------> wordSegmente      ���ӷִ�
------> wordTagging       ���ӷִʺʹ��Ա�ע
+程序运行还需要一个data数据集，但是因为太大我没上传，可以自己下个数据集然后在hanlp.properties中设置root地址
+
+-->Core 为主函数
+-----> CountWord  	 计算词频并且降序排序
+-----> RemoveDuplication 去空去重
+-----> SelectHotWord     选择候选热词
+-----> SelectSentence    从文本选择某几行到第几行句子
+-----> wordGuoLv	       停用词过滤
+-----> wordSegmente      句子分词
+-----> wordTagging       句子分词和词性标注
