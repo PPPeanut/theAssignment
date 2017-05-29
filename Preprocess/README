@@ -1,0 +1,8 @@
+-->Core 为主函数
+-----> CountWord  	 计算词频并且降序排序
+-----> RemoveDuplication 去空去重
+-----> SelectHotWord     选择候选热词
+-----> SelectSentence    从文本选择某几行到第几行句子
+-----> wordGuoLv	 停用词过滤
+-----> wordSegmente      句子分词
+-----> wordTagging       句子分词和词性标注
